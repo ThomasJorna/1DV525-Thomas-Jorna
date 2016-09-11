@@ -1,0 +1,11 @@
+/* TEAM */
+
+Author: Thomas Jorna
+Site: thomasfkjorna@gmail.com/tj222if@lnu.student.se
+Location: Växjö, Sweden / Groningen, the Netherlands
+
+/* SITE */
+
+Last update: 2016/09/12
+Standards: HTML5, CSS3
+Software: WebStorm 10
