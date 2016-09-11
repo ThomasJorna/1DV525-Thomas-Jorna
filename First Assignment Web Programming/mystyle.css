@@ -1,3 +1,5 @@
+
+
 body {
     margin: 40px auto;
     max-width: 650px;
@@ -6,9 +8,23 @@ body {
     color: #444;
     padding: 0 10px;
 }
+nav ul {
+    display: flex;
+    justify-content:space-between;
+    /*text-align: justify;*/
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
 
 nav li {
         display: inline;
-
-
 }
+
+nav ul li a:hover {background-color: #555;}
+
+nav ul li a{color: #FFFFFF;}
+
+nav ul li a:visited{color: #FFFFFF;}
