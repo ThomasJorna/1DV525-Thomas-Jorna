@@ -7,6 +7,8 @@ body {
     font-size: 18px;
     color: #444;
     padding: 0 10px;
+    background-image: url("images/FFFFFF.png");
+    background-color: #cccccc;
 }
 
 nav ul {
@@ -30,12 +32,26 @@ nav ul li a{color: #FFFFFF;}
 
 nav ul li a:visited{color: #FFFFFF;}
 
+nav ul li a.selected:link, a.selected:visited{background-color: blue }
+
 form {
     border: thin;
 }
 
 input {
-    width: 100%;
+    width: 93%;
     padding: 12px 20px;
     margin: 8px 0;
 }
+
+
+
+ul li input[type=radio]{
+    position: relative;
+
+}
+ul li label {
+    display: block;
+    position: relative;
+}
+
