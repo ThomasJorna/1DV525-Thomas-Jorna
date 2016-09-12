@@ -8,6 +8,7 @@ body {
     color: #444;
     padding: 0 10px;
 }
+
 nav ul {
     display: flex;
     justify-content:space-between;
@@ -28,3 +29,13 @@ nav ul li a:hover {background-color: #555;}
 nav ul li a{color: #FFFFFF;}
 
 nav ul li a:visited{color: #FFFFFF;}
+
+form {
+    border: thin;
+}
+
+input {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+}
